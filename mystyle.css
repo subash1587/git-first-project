@@ -1,0 +1,137 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FAAAAA;
+}
+body, div, h1, h3, h6, ul {
+	margin:0px; 
+	padding:0px; 
+}
+
+.container {
+	margin: 0 auto;	
+}
+#header {
+	background-color: #6B3636;
+	height: 120px;
+	padding: 30px;
+}
+#title {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 25px;
+	color: black;
+}
+#menu {
+	background-color: #B25A5A;
+	padding-left: 220px;
+	padding-right: 80px;
+	color: #980000;
+	font-weight: bold;
+}
+
+#menu li {
+	float: left;
+	padding: 10px 55px 10px 50px;	
+	list-style: none;
+	cursor: pointer;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 40px;
+	clear: both;
+	padding-top: 5px;
+}
+.tab {
+	width: 32.84%;
+	height: 50px;
+	margin-left: 0px;
+	margin-right: 0px;	
+	float: left;
+	border: 1px solid #980000;
+	cursor: pointer;
+	background-color: #6B3636;
+}
+.options {
+	height: 50px;
+	width: 99.5%;
+	background-color: #993333;
+	float: left;
+	border: 1px solid #980000;
+	cursor: pointer;
+}
+h4 {
+	text-align: left;
+}
+#navigation {
+	background-color: #B25A5A;
+	width: 30%;
+	height: 404px;
+	clear: both;
+	float: left;
+}
+#content {
+	margin-left: 35%;
+	padding-top: 30px;
+	width: 65%;
+/*	height: 395px;
+*/}
+#text {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+#result {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	margin-left: 0px;
+	margin-right: 50px;
+}
+#table {
+	border: 1px solid black;
+	width: 100%;
+	border-collapse: collapse;
+}
+#column {
+	border: 1px solid black;
+	width: 13%;
+	border-collapse: collapse;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.activeTab {
+	color: white;
+	background-color: #993333;
+}
+.activeMenu {
+	background-color: #FAAAAA;
+	color: red;
+}
+
+#courses {
+	position: absolute;
+	background-color: ##980000;
+	line-height: 30px;
+}
+#events {
+	float:left;
+	position: absolute;
+	background-color: ##980000;
+	line-height: 30px;
+}
+#courses ul li {
+	list-style:none;
+	padding: 5px 70px 5px 10px;
+	margin-left: 521px;
+	background-color: ##980000;
+}
+
+#events ul li {
+	list-style:none;
+	padding: 5px 6px 5px 10px;
+	margin-left: 690px;
+}

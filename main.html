@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<div id = "main">
+		<div class = "container">
+			<div id = "header">
+				<div id = "title">
+					<h1> College Data Management </h1>
+				</div>
+			</div>
+			
+			<div id = "menu">
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li id="coursesTab">Courses</li>
+					<li id="eventsTab">Events</li>
+					<li>Gallery</li>
+					<li>Contact</li>
+				</ul>
+				<div style="clear:both"></div>
+			</div>
+
+			<div id="courses">
+				<ul>
+					<li>Aeronautical</li>
+					<li>Chemical</li>
+					<li>Electronics</li>
+					<li>Mechanical</li>
+					<li>Production</li>
+				</ul>
+			</div>
+
+			<div id="events">
+				<ul>
+					<li>Cultural Fest - 2015</li>
+					<li>Hostel Day</li>
+					<li>Convocation</li>
+					<li>Alumni Meet</li>
+				</ul>
+			</div>
+
+			<div>
+				<div id="navigation">
+					<div>
+						<div id="admintab" class="tab"><h3 id="text">Admin</h3></div>
+						<div id="teachertab" class="tab"><h3 id="text">Teacher</h3></div>
+						<div id="studenttab" class="tab"><h3 id="text">Student</h3></div>
+					</div>
+					<div id="adminOptions">
+						<div id="addTeacherMenu" class="options"><h4>Add Teacher</h4></div>
+						<div id="searchTeacherMenu" class="options"><h4>Search Teacher</h4></div>
+						<div id="viewAllTeachersMenu" class="options"><h4>View All Teachers</h4></div>
+					</div>
+					<div id="teacherOptions">
+						<div id="addStudentMenu" class="options"><h4>Add Student</h4></div>
+						<div id="searchStudentMenu" class="options"><h4>Search Student</h4></div>
+						<div id="viewAllStudentsMenu" class="options"><h4>View All Students</h4></div>
+						<div id="viewTop10StudentsMenu" class="options"><h4>View Top 10 Students</h4></div>
+					</div>
+					<div id="studentOptions">
+						<div id="viewStudentMenu" class="options"><h4>View Student</h4></div>
+					</div>
+				</div>
+
+				<div id="content">
+					
+					<div id="result"></div>
+
+					<div  id="addTeacherContainer">	
+						<h3>Please fill in the details and click "Add"</h3>
+						<br>			
+						Teacher ID<br>
+						<input type="number" id="Tid" class="inputBox">
+						<br><br>
+						Teacher Name<br>
+						<input type="text" id="Tname" class="inputBox">
+						<br><br>
+						Department<br>
+						<input type="text" id="Tdept" class="inputBox">
+						<br><br>
+						Subject Handled<br>
+						<input type="text" id="Tsub" class="inputBox">
+						<br><br>
+						<input type="submit" value="Add" id="addTeacher">
+					</div>
+					
+					<div id = "searchTeacherContainer">
+						<h3>Enter the Teacher name and click "Search"<h3>
+						<br>
+						<input type="text" id="TsearchName" class="inputBox">
+						<br><br>
+						<input type="submit" value="Search" id="searchTeacher">
+					</div>
+
+					<div id = "addStudentContainer">
+						<h3>Please fill in the details and click "Add"</h3>				
+						<br>
+						Student ID<t>
+						<input type="number" id="Sid" class="inputBox">
+						<br><br>
+						Student Name<t>
+						<input type="text" id="Sname" class="inputBox">
+						<br><br>
+						Department<t>
+						<input type="text" id="Sdept" class="inputBox">
+						<br><br>
+						Semester 1 Score<t>
+						<input type="number" id="Ssem1" class="inputBox">
+						<br><br>
+						Semester 2 Score<t>
+						<input type="number" id="Ssem2" class="inputBox">
+						<br><br>
+						Semester 3 Score<t>
+						<input type="number" id="Ssem3" class="inputBox">
+						<br><br>
+						<input type="submit" value="Add" id="addStudent">				
+					</div>
+
+					<div id = "searchStudentContainer">
+						<h3>Enter the Student name and click "Search"<h3>
+						<br>
+						<input type="text" id="SsearchName" class="inputBox">
+						<br><br>
+						<input type="submit" value="Search" id="searchStudent">
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id = "footer">
+		<div class = "container">
+			<h6>Copyright © 2015  Subash <br />
+               All Rights Reserved</h6>
+		</div>
+	</div>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
